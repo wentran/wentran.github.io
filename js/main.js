@@ -139,10 +139,8 @@
 
     //pop up porfolio
     $('.portfolio-image li a').magnificPopup({
-      type: 'image',
-      gallery: {
-        enabled: true
-      }
+      type: 'image'
+      
       // other options
     });
     
