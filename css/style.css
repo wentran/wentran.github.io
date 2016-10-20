@@ -1133,7 +1133,7 @@ ul.portfolio-image li .desc{
   float: left;
   overflow: hidden;
   width: 33.33333%;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .socials a {
@@ -1158,7 +1158,7 @@ ul.portfolio-image li .desc{
 .socials a:before {
   bottom: 100%;
   display: block;
-  height: 3px;
+  height: 6px;
   width: 100%;
   content: "";
 }
@@ -1263,6 +1263,10 @@ ul.portfolio-image li .desc{
 .skillst .count-bar .count { background-color: #818181;}
 .skillst .count-bar .count span:after { border-top: 4px solid #818181;}
 
+.buttonContainer{
+  display: flex;
+  flex-direction: column;
+}
 
 input[type="submit"],
 input[type="reset"],
@@ -1283,13 +1287,16 @@ button,
   border-radius: 3em;
   color: #696969 !important;
   cursor: pointer;
+  align-self: center;
+  float: bottom;
   display: inline-block;
   font-size: 1.5em;
   font-weight: bold;
-  height: calc(4.75em + 2px);
+  height: calc(4em + 2px);
   letter-spacing: 0.25em;
   line-height: 4.75em;
-  outline: 0;
+  outline: 0;  float: bottom;
+
   padding: 0 3.75em;
   position: relative;
   text-align: center;
@@ -1316,9 +1323,11 @@ button,
     -ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
     transition: opacity 0.2s ease, transform 0.2s ease;
     background: #ffffff;
+    align-self: center;
     border-radius: 3em;
     content: '';
     height: 100%;
+    float: bottom;
     left: 0;
     opacity: 0;
     position: absolute;
