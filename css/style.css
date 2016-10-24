@@ -693,22 +693,55 @@ ul.portfolio-image li .desc{
   color: #818181;
   margin: 0;
 }
+.head-sm1 {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-top: 18px;
+  margin-bottom: 20px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  text-align: center;
+  align-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
 .head-sm {
-  font-size: 18px;
+  font-size: 13px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   margin-top: 10px;
   margin-bottom: 20px;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
-  align-content: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
 .text-grey {
   color: #434343;
+  font-size: 16px;
   line-height: 26px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left:  auto;
+  margin-right:  auto;
+  display: table-cell;
+  width: 80%;
+  text-align: center;
+    vertical-align: middle;
+}
+
+.text-grey1 {
+  color: #434343;
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left:  auto;
+  margin-right:  auto;
+  display: table-cell;
+  width: 60%;
+  text-align: center;
+  vertical-align: middle;
 }
 /*---------- c. experience -----------*/
 .wrap-card {
@@ -1214,11 +1247,35 @@ border-color:#D1D1D1;border-width: 1px 1px 5px 1px;border-style: solid; -webkit-
     -webkit-justify-content: center; /* Safari */
      display: inline-block;
      justify-content:  center;  
-
-     margin-bottom: 40%;
+    margin-left: 15%;
+    margin-right: 15%;
+     margin-bottom: 30%;
      margin-top: 20%;
 }
 
+.buttonsContainer0 {
+  display: -webkit-flex; /* Safari */
+   display: flex;
+     display: inline-block;
+      text-align: center;
+      margin-left: 30%;
+      margin-right: 30%;
+     margin-bottom: 51%;
+     margin-top: 20%;
+}
+
+.buttonsContainer1 {
+  display: -webkit-flex; /* Safari */
+   display: flex;
+   -webkit-flex-direction: row; /* Safari */
+
+    -webkit-justify-content: center; /* Safari */ display: inline-block;
+      text-align: center;
+     margin-left: 40%;
+     margin-right: 40%;
+     margin-bottom: 50%;
+     margin-top: 20%
+}
 
 .section {
   clear: both;
