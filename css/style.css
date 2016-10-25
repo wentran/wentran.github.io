@@ -704,7 +704,6 @@ ul.portfolio-image li .desc{
   text-align: center;
   align-content: center;
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
 }
 
 .head-sm {
@@ -1226,13 +1225,8 @@ ul.portfolio-image li .desc{
        
 
 .button_example{
-border-color:#D1D1D1;border-width: 1px 1px 5px 1px;border-style: solid; -webkit-border-radius: 11px; -moz-border-radius: 11px;border-radius: 11px;font-size:17px;font-family:cursive, verdana, arial, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: 1px 1px 0 rgba(255,255,255,1);font-weight:bold; color: #242424;
- background-color: #F9F9F9; background-image: -webkit-gradient(linear, left top, left bottom, from(#F9F9F9), to(#B0B0B0));
- background-image: -webkit-linear-gradient(top, #F9F9F9, #B0B0B0);
- background-image: -moz-linear-gradient(top, #F9F9F9, #B0B0B0);
- background-image: -ms-linear-gradient(top, #F9F9F9, #B0B0B0);
- background-image: -o-linear-gradient(top, #F9F9F9, #B0B0B0);
- background-image: linear-gradient(to bottom, #F9F9F9, #B0B0B0);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#F9F9F9, endColorstr=#B0B0B0);
+border-color:#D1D1D1;border-width: 1px 1px 5px 1px;border-style: solid; -webkit-border-radius: 11px; -moz-border-radius: 11px;border-radius: 11px;font-size:17px;font-family: Roboto; color:#828282; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;color: #242424;
+ background-color: #F9F9F9;
 }       
 
 
