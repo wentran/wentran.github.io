@@ -706,6 +706,19 @@ ul.portfolio-image li .desc{
   font-family: 'Roboto', sans-serif;
 }
 
+.head-sm3 {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-top: 18px;
+  margin-bottom: 15px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  text-align: center;
+  align-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
 .head-sm {
   font-size: 13px;
   letter-spacing: 1.5px;
@@ -721,6 +734,21 @@ ul.portfolio-image li .desc{
   line-height: 26px;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left:  auto;
+  margin-right:  auto;
+  display: table-cell;
+  width: 80%;
+  text-align: center;
+    vertical-align: middle;
+}
+
+
+.text-grey0 {
+  color: #434343;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 20px;
+  margin-bottom: 17px;
   margin-left:  auto;
   margin-right:  auto;
   display: table-cell;
@@ -1254,7 +1282,7 @@ border-color:#D1D1D1;border-width: 1px 1px 5px 1px;border-style: solid; -webkit-
       text-align: center;
       margin-left: 30%;
       margin-right: 30%;
-     margin-bottom: 51%;
+     margin-bottom: 49%;
      margin-top: 20%;
 }
 
@@ -1267,7 +1295,20 @@ border-color:#D1D1D1;border-width: 1px 1px 5px 1px;border-style: solid; -webkit-
       text-align: center;
      margin-left: 40%;
      margin-right: 40%;
-     margin-bottom: 50%;
+     margin-bottom: 48%;
+     margin-top: 20%
+}
+
+.buttonsContainer2 {
+  display: -webkit-flex; /* Safari */
+   display: flex;
+   -webkit-flex-direction: row; /* Safari */
+
+    -webkit-justify-content: center; /* Safari */ display: inline-block;
+      text-align: center;
+     margin-left: 40%;
+     margin-right: 40%;
+     margin-bottom: 40%;
      margin-top: 20%
 }
 
